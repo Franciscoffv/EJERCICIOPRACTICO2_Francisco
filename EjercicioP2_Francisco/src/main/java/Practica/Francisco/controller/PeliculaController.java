@@ -33,7 +33,7 @@ public class PeliculaController {
         model.addAttribute("peliculas", peliculas);
         var categorias = categoriaService.getCategorias(false);
         model.addAttribute("categorias", categorias);
-        model.addAttribute("totalPeliculas",Peliculas.size());
+        model.addAttribute("totalPeliculas",peliculas.size());
         return "/pelicula/listado";
     }
     
