@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package Practica.Francisco.service;
+package EjercicioII.Francisco.service;
 
-import Practica.Francisco.domain.Categoria;
+import EjercicioII.Francisco.domain.Categoria;
 import java.util.List;
 
 /**

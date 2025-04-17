@@ -1,4 +1,4 @@
-package Practica.Francisco.domain;
+package EjercicioII.Francisco.domain;
 
 import jakarta.persistence.*;
 import java.io.Serializable;

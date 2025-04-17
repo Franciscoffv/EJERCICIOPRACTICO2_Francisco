@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Practica.Francisco.service.impl;
+package EjercicioII.Francisco.service.impl;
 
-import Practica.Francisco.domain.Pelicula;
+import EjercicioII.Francisco.domain.Pelicula;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import Practica.Francisco.service.PeliculaService;
-import Practica.Francisco.dao.PeliculaDao;
+import EjercicioII.Francisco.service.PeliculaService;
+import EjercicioII.Francisco.dao.PeliculaDao;
 
 /**
  *

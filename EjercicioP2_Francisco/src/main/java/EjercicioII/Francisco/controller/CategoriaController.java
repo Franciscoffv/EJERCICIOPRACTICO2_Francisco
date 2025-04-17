@@ -7,12 +7,12 @@
 Esta clase se encarga de las rutas de nuestro proyecto, por lo que es la que nos redirige entre las paginas de html que hemos creado,
 es por esto que es de suma importancia trabajarla con mucho cuidado y atencion.
 */
-package Practica.Francisco.controller;
+package EjercicioII.Francisco.controller;
 
 
 
-import Practica.Francisco.domain.Categoria;
-import Practica.Francisco.service.CategoriaService;
+import EjercicioII.Francisco.domain.Categoria;
+import EjercicioII.Francisco.service.CategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

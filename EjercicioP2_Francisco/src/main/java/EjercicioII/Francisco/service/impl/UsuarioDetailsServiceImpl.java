@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Practica.Francisco.service.impl;
+package EjercicioII.Francisco.service.impl;
 
-import Practica.Francisco.dao.UsuarioDao;
-import Practica.Francisco.domain.Rol;
-import Practica.Francisco.domain.Usuario;
-import Practica.Francisco.service.UsuarioDetailsService;
+import EjercicioII.Francisco.dao.UsuarioDao;
+import EjercicioII.Francisco.domain.Rol;
+import EjercicioII.Francisco.domain.Usuario;
+import EjercicioII.Francisco.service.UsuarioDetailsService;
 import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

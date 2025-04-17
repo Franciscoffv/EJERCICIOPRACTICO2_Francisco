@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package Practica.Francisco.service;
-
-import org.springframework.security.core.userdetails.*;
+package EjercicioII.Francisco.dao;
 
 /**
  *
  * @author Francisco
  */
-public interface UsuarioDetailsService {
-    public UserDetails loadUserByUsername (String username) throws UsernameNotFoundException;
-}
+import EjercicioII.Francisco.domain.Pelicula;
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface PeliculaDao extends JpaRepository <Pelicula,Long> {
+    
+}
